@@ -1,0 +1,105 @@
+.main-content {
+    background: linear-gradient(#0064A6, #1a72ad, #2a8ed1, #4FB8FD);
+    height: 100%;
+}
+
+.artigos {
+    display: flex;
+}
+
+.content {
+    flex: 3;
+    padding: 1rem;
+    padding-top: 15%;
+}
+
+.image-size {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    border-radius: 4%;
+    min-width: 100%;
+    border-bottom: 2px solid black;
+
+}
+
+.artigo1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    border-radius: 10px;
+    background: #029aff00; 
+    
+}
+
+.artigo1:hover{
+    
+    transition: 0.5s;
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.399);  
+    background: #029aff77;  
+    
+}
+
+.artigo1 h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-bottom: 2%;
+
+}
+
+.artigo1 p {
+    font-size: 15px;
+}
+
+.effect {
+
+    flex: 0 0 calc(50% - 5%)
+
+}
+
+.texto {
+    padding: 20px;
+    text-align: justify;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.article {
+    flex: 0 0 calc(50% - 5%)
+}
+
+.content article {
+    margin-bottom: 2rem;
+}
+
+.content article h2 {
+    margin-bottom: 0.5rem;
+}
+
+.content article p {
+    margin-bottom: 0.5rem;
+}
+
+#aniversario {
+    font-size: 16px;
+}
+
+#setor {
+    font-size: 16px;
+
+}
+
+#curiosidades {
+    font-size: 19px;
+}
