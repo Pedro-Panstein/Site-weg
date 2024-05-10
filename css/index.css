@@ -103,4 +103,12 @@
     .artigo1 img {
         height: 120px;
     }
+
+    #ultimio{
+        font-size: 12px;
+    }
+
+    #penult{
+        font-size: 12px;
+    }
 }
