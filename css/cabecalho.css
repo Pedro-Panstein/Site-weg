@@ -11,3 +11,10 @@
     padding: 2%;
     padding-top: 1.5%;
 } 
+
+@media (max-width: 380px) {
+    .cabecalho img, a{
+        height: 60px;
+        width: 80px;
+    }
+}
