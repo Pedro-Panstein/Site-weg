@@ -91,15 +91,16 @@
     margin-bottom: 0.5rem;
 }
 
-#aniversario {
-    font-size: 16px;
-}
+@media (max-width: 380px){
+    .artigo1 p, a{
+        font-size: 12px;
+    }
 
-#setor {
-    font-size: 16px;
+    .artigo1 h2 {
+        font-size: 13px;
+    }
 
-}
-
-#curiosidades {
-    font-size: 19px;
+    .artigo1 img {
+        height: 120px;
+    }
 }
