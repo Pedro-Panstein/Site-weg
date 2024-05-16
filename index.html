@@ -6,36 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEG</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/cabecalho.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="nav-bar">
-                <li class="logo"><a href="index.html"><img src="image/Weg_logo_blue_vector.svg.png" alt="logo" height="60px" width="80px"></a></li>
-                <input type="checkbox" id="check">
-                <span class="menu">
-                    <ul>
-                        <li class="first-li"><a href="index.html"><p>Página inicial</p></a></li>
-                        <li><a href="#">Avisos</a></li>
-                        <li><a href="#">Novidades</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="#">Cardápio</a></li>
-                        <li><a href="#">Aniversáriantes</a></li>
-                        <li><a href="#">Contratos</a></li>
-                        <li><a href="#">Feedbacks</a></li>
-                        <li><a href="#">Datas</a></li>
-                        <li><a href="#">Dicas</a></li>
-                        <li><a href="#">Curiosidades </a></li>
-                    </ul>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="close-menu"><i class="fas fa-bars"></i></label>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="image/Weg_logo_blue_vector.svg.png" alt="Logo weg" height="60" width="80"></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <a href="configuracao.html"><img src="image/Group.png" alt="configuração" height="40" width="40" class="config"></a>
+                <button onclick="menuShow()"><img class="icon" src="image/menu_white_36dp.svg" alt=""></button>
+            </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link" id="página-aberta">Página inicial</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Novidades</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cardápio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Aniversáriantes</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contratos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Feedbacks</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Datas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Dicas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Curiosidades</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contratos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sua Saúde</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Feedbacks</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Acidentes</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
     </header>
 
     <main class="main-content">
@@ -213,6 +232,7 @@
 
         </section>
     </main>
+    <a id="link-top" href="#top"><img src="image/icon-park_up-c.png" alt="botão de voltar para cima" height="50" width="50"></a>
     <script src="js/script.js"></script>
 </body>
 </html>
