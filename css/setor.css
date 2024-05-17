@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     content: "";
-    height: 41%;
+    height: 40vh;
     width: 100%;
     position: absolute;
     z-index: 8;
