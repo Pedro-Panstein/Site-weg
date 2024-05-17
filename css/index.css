@@ -54,6 +54,7 @@
     font-size: 20px;
     padding-bottom: 2%;
     color: white;
+    text-align: center;
 }
 
 .artigo1 p, a {
@@ -105,6 +106,7 @@
 
     .artigo1 h2 {
         font-size: 13px;
+        text-align: center;
     }
 
     .artigo1 img {
@@ -119,3 +121,135 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 327px){
+    .artigo1 p, a{
+        font-size: 10px;
+    }
+
+    .artigo1 h2{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .artigo1 img {
+        height: 110px;
+    }
+
+    #ultimio{
+        font-size: 10px;
+    }
+
+    #penult{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px){
+    .artigo1 p, a{
+        font-size: 7px;
+    }
+
+    .artigo1 h2{
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .artigo1 img {
+        height: 110px;
+    }
+
+    #ultimio{
+        font-size: 7px;
+    }
+
+    #penult{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 268px){
+    .artigo1 p, a{
+        font-size: 7px;
+    }
+
+    .artigo1 h2{
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .artigo1 img {
+        height: 110px;
+    }
+
+    #ultimio{
+        font-size: 7px;
+    }
+
+    #penult{
+        font-size: 7px;
+    }
+}
+
+
+@media (max-width: 237px){
+    .artigo1 p, a{
+        font-size: 5px;
+    }
+
+    .artigo1 h2{
+        font-size: 6px;
+        text-align: center;
+    }
+
+    .artigo1 img {
+        height: 110px;
+    }
+
+    #ultimio{
+        font-size: 5px;
+    }
+
+    #penult{
+        font-size: 5px;
+    }
+
+    .content{
+        padding: 10% 2% 2% 2%;
+    }
+
+    .texto{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 197px){
+    .artigo1 p, a{
+        font-size: 5px;
+    }
+
+    .artigo1 h2{
+        font-size: 6px;
+        text-align: center;
+    }
+
+    .artigo1 img {
+        height: 110px;
+    }
+
+    #ultimio{
+        font-size: 5px;
+    }
+
+    #penult{
+        font-size: 5px;
+    }
+
+    .content{
+        padding: 10% 2% 2% 2%;
+    }
+    .texto{
+        padding: 10px;
+    }
+}
+
