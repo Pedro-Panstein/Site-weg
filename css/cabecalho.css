@@ -115,3 +115,15 @@ header {
         display: block;
     }
 }
+
+@media (max-width: 268px){
+    .logo img{
+        height: 40px;
+        width: 50px;
+    }
+
+    .config{
+        height: 30px;
+        width: 30px;
+    }
+}

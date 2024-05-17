@@ -42,6 +42,7 @@
     text-align: justify;
     background: linear-gradient( #000, #000, #01253d, #004879, #0064A6, #0064A6, #0064A6);
     height: 100%;
+    width: 100%;
 }
 
 .nome {
@@ -70,4 +71,42 @@
     justify-content: center;
     margin: 0 auto;
     color: #fff;
+}
+
+.corpo{
+    padding-bottom: 10%;
+}
+
+@media (max-width: 375px) {
+    .fundo-setor h1{
+        font-size: 24px;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #0064A6;
+    }
+}
+
+@media (max-width: 263px) {
+    .fundo-setor h1{
+        font-size: 18px;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #0064A6;
+    }
+}
+
+@media (max-width: 227px){
+    .nome{
+        font-size: 20px;
+    }
+
+    .corpo p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 197px) {
+    .fundo-setor h1{
+        font-size: 15px;
+        -webkit-text-stroke: 0px;
+        -webkit-text-stroke-color: #0064A6;
+    }
 }
