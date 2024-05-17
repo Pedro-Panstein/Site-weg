@@ -25,7 +25,6 @@
     margin-bottom: 2%;
     border-radius: 4%;
     min-width: 100%;
-    border-bottom: 1px solid #000;
 
 }
 
@@ -43,7 +42,7 @@
     
     transition: 0.5s;
     transform: scale(1.02);
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.399);  
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.499);  
     
 }
 
@@ -51,7 +50,7 @@
 
     font-family: "Bree Serif", serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 2%;
     color: white;
     text-align: center;
@@ -59,7 +58,7 @@
 
 .artigo1 p, a {
     font-family: "Poppiins", sans-serif;
-    font-size: 15px;
+    font-size: 11px;
     color: white;
 }
 
@@ -98,6 +97,7 @@
 .content article p {
     margin-bottom: 0.5rem;
 }
+
 
 @media (max-width: 380px){
     .artigo1 p, a{
