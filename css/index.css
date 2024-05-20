@@ -98,8 +98,17 @@
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 700px){
+    .artigo1 h2{
+        font-size: 25px;
+    }
 
-@media (max-width: 380px){
+    .artigo1 p, a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 530px){
     .artigo1 p, a{
         font-size: 12px;
     }
