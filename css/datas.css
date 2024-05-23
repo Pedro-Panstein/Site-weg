@@ -1,0 +1,17 @@
+.corpo{
+    text-align: center;
+}
+
+.corpo h6{
+    width: 30%;
+    background-color: #0064a6;
+    color: #ffffff;
+    margin: 15% auto;
+    margin-bottom: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.mes{
+    font-size: 25px;
+}
