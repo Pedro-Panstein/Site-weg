@@ -6,6 +6,23 @@ setor.addEventListener("click", function(){
 
 });
 
+const metas = document.getElementById("metas");
+
+metas.addEventListener("click", function(){
+
+    window.location.href="metas.html"
+
+});
+
+const datas = document.getElementById("datas");
+
+datas.addEventListener("click", function(){
+
+    window.location.href="datas.html"
+
+});
+
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {

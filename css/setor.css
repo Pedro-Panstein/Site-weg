@@ -40,25 +40,25 @@
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    background: linear-gradient( #000, #000, #01253d, #004879, #0064A6, #0064A6, #0064A6);
+    background: linear-gradient(#000, #fff, #fff, #fff, #fff);
     height: 100%;
     width: 100%;
 }
 
 .nome {
-    color: #fff;
+    color: #0064a6be;
     display: flex;
     justify-content: center;
     padding-top: 50%;
     -webkit-text-stroke: .7px;
     -webkit-text-stroke-color: #0064A6;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .corpo p {
     
-    background-color: #00030562;
-    color: #fff;
+    background-color: #0064a6;
+    color: #ffffff;
     width: 80%;
     margin: 15% auto;
     margin-bottom: 10%;
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    color: #fff;
+    color: #000000;
 }
 
 .corpo{
