@@ -1,0 +1,42 @@
+.nome{
+    font-size: 25px;
+}
+
+.contador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+}
+
+.nome{
+    padding-top: 30%;
+}
+
+.contador p{
+    background-color: #0064a6;
+    color: #ffffff;
+    width: 5%;
+    text-align: center;
+    margin: 10% auto;
+    margin-bottom: 10%;
+    padding: 10%;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+.corpo p {
+    text-align: center;
+}
+
+@media (max-width: 259px) {
+    .nome {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 199px) {
+    .nome {
+        font-size: 15px;
+    }
+}
