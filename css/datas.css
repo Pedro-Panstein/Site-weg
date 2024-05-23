@@ -12,6 +12,11 @@
     border-radius: 10px;
 }
 
+.corpo p {
+    width: 80%;
+    font-size: 18px;
+}
+
 .mes{
     font-size: 25px;
 }
