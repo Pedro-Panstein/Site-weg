@@ -73,7 +73,7 @@ header {
     margin-bottom: 3px;
 }
 
-@media screen and (max-width: 5000px) {
+@media screen and (max-width: 50000px) {
     .nav-bar {
         padding: 2%;
     }
